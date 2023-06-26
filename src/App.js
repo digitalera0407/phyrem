@@ -1,4 +1,7 @@
 import './App.css';
+import './Styles/main.css'
+import './Styles/select2.css'
+import './Styles/custom.css'
 import Footer from './Containers/footer';
 import Header from './Containers/header';
 import ContactUs from './Containers/contactus';
@@ -16,7 +19,7 @@ import './Styles/select2.css';
 function App() {
   return (
     <div className="App">
-      <Footer />
+      <Header />
       <LogoText />
       <CustomerBase />
       <LoyalityFeature />
@@ -25,7 +28,7 @@ function App() {
       <Engagements />
       <IoT />
       <ContactUs />
-      <Header />
+      <Footer />
     </div>
   );
 }
