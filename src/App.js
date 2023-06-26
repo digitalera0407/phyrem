@@ -9,10 +9,13 @@ import LogoText from './Containers/logotext';
 import LoyalityFeature from './Containers/loyalityfeature';
 import MProductlines from './Containers/mproductlines';
 import OFeatures from './Containers/ofeatures';
+import './Styles/custom.css';
+import './Styles/main.css';
+import './Styles/select2.css';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
       <Footer />
       <LogoText />
       <CustomerBase />
